@@ -25,7 +25,7 @@ SECRET_KEY = '=-cyx_pss0-gc#8e+o2#i-jd^f9u)ppirr9sv^&dng%be7%e%v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['antlet.io']
 
 
 # Application definition
