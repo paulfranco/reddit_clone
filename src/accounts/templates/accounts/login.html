@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Reddit Clone</title>
-  </head>
-  <body>
+{% extends 'base.html' %}
+  {% block content %}
     <div>
       <h1>Login</h1>
       {% if error %}
@@ -25,8 +20,8 @@
         <br />
         <input type='password' name='password' />
         <br />
-        <input type='submit' value='Log In' />
+        <br />
+        <input class="btn btn-primary" type='submit' value='Log In' />
       </form>
     </div>
-  </body>
-</html>
+  {% endblock %}
